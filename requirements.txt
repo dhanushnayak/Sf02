@@ -5,3 +5,5 @@ termcolor
 plotly
 streamlit
 streamlit-aggrid
+pandas
+numpy
