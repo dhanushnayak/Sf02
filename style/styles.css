@@ -1,0 +1,58 @@
+#MainMenu {visibility: hidden;}
+
+[data-testid=stSidebar] div.stButton > button:first-child {
+    background-color: transparent;
+    text-decoration-color: gray;
+    color: rgb(255, 255, 255);
+    
+    
+ }
+
+ [data-testid=stSidebar] div.stButton > button:hover {
+    background-color: #7e807e;
+    border-color: #7e807e;
+
+    }
+
+div.stButton > button:hover {
+        background-color: #2e2e2d;
+        border-color: #747474;
+    
+        }
+
+div.stButton > button:first-child {
+    background-color: #747474;
+    text-decoration-color: gray;
+    color: rgb(255, 255, 255);
+    
+ }
+
+[data-testid=stSidebar] {
+    background-color: #2e2e2d;
+}
+
+[data-testid="stMetric"] {
+    background-color: rgb(211, 211, 211);
+    border: 1px solid rgba(28, 131, 225, 0.1);
+    padding: 5% 5% 5% 10%;
+    border-radius: 5px;
+    color:rgba(45, 46, 46, 0.1);
+    overflow-wrap: break-word;
+ }
+ 
+ /* breakline for metric text         */
+[data-testid="stMetricLabel"]  {
+    overflow-wrap: break-word;
+    white-space: break-spaces;
+    color: rgb(92, 91, 91);
+    font-weight: bolder;
+ }
+
+ [data-testid="stMetricValue"]  {
+    overflow-wrap: break-word;
+    white-space: break-spaces;
+    color: rgb(26, 25, 25);
+    font-weight: bolder;
+ }
+
+footer {visibility: hidden;}

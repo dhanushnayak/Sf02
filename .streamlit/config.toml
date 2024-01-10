@@ -1,0 +1,4 @@
+[theme] # You have to add this line
+primaryColor = 'white' # Bright grey
+backgroundColor = 'white' # Dark purple
+font="serif"
