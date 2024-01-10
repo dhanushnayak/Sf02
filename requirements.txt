@@ -1,0 +1,7 @@
+snowflake
+snowflake-connector-python==3.2.0
+snowflake-snowpark-python==1.8.0
+termcolor
+plotly
+streamlit
+streamlit-aggrid
